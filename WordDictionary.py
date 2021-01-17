@@ -27,7 +27,7 @@ def wordLookup(x):
 word = input("Enter the word you want to lookup: \n")
 #print(word.lower())
 #print(word.title())
-presentable_word = wordLookup(word)
+presentable_word = wordLookup(word) #calling the function
 if type(presentable_word)==list:
     for d in presentable_word:
         print(d)        
